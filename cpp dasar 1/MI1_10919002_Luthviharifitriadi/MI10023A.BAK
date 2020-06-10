@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <conio.h>
+main(){
+clrscr();
+int detik;
+int jam;
+int menit;
+int detik1;
+printf("mengkonverensikan detik => jam,menit,detik\n");
+printf("masukan detik:");
+scanf("%i",&detik);
+jam=detik/3600;
+detik=detik%3600;
+menit=detik/60;
+detik1=detik%60;
+printf("%d",jam);
+printf("jam%d",menit);
+printf("menit%d",detik1);
+printf("detik");
+getch();
+return 0;
+
+
+}
